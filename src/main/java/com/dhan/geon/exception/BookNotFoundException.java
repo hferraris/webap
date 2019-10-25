@@ -1,0 +1,20 @@
+package com.dhan.geon.exception;
+
+public class BookNotFoundException extends RuntimeException{
+    public BookNotFoundException(String message) {
+        super(message);
+    }
+
+    public BookNotFoundException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public BookNotFoundException() {
+
+    }
+
+    @Override
+    public String getMessage() {
+        return super.getMessage();
+    }
+}
